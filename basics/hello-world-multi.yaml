@@ -1,0 +1,9 @@
+---
+# This playbook prints a simple debug message
+- name: Hello World multi 
+  hosts: all
+
+  tasks:
+  - name: Pring hello World
+    debug:
+      msg: Hello, world!
